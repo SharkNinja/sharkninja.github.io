@@ -1,0 +1,41 @@
+
+body {
+    text-align:center;
+    background-color: #FCA6C9
+}
+h1 {
+    text-align:center;
+    color:white
+}
+h1:hover{
+    color:black
+}
+header {
+    color:white
+
+}
+
+#point1 {
+    font-weight:bold;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#point2 {
+    font-weight:bold;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#point3 {
+    font-weight:bold;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#point4 {
+    font-weight:bold;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}

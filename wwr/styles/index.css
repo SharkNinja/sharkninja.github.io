@@ -1,0 +1,33 @@
+body {
+    max-width: 1600px;
+    text-align: center;
+    background-color: #a0d1ff5e
+}
+
+header {
+    background-color: rgb(18, 145, 102);
+    border-color: black;
+    border-radius: 50px;
+
+}
+nav a:hover {
+    background-color: turquoise;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.logo {s
+    width: 80px;
+    height: 80px;
+}
+
+.msg h2 {
+    background-color: rgb(18, 145, 102);
+}
+.msg p {
+    background-color: rgb(18, 145, 102);
+}
+
+#footer {
+    background-color: rgb(18, 145, 102);
+}
