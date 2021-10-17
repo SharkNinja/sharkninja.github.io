@@ -5,7 +5,7 @@ body {
 }
 
 #content {
-    max-width:7000x;
+    max-width:1600px;
     text-align:center;
     font-family: 'Oswald', sans-serif;
 }
@@ -162,8 +162,8 @@ footer #footer-contactus:hover{
     background-color:black;
 }
 
-footer .section-space {
-    padding-top:30px;
+footer .social {
+    padding-top:35px;
 }
 
 footer h3 {
