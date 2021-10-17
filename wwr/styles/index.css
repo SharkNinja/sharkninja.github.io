@@ -1,33 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 body {
-    max-width: 1600px;
-    text-align: center;
-    background-color: #a0d1ff5e
+    font-family: 'Oswald', sans-serif;
 }
 
+#content {
+    max-width:7000x;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+}
 header {
-    background-color: rgb(18, 145, 102);
-    border-color: black;
-    border-radius: 50px;
-
-}
-nav a:hover {
-    background-color: turquoise;
-    border-radius: 50px;
-    text-decoration: none;
+    background-color:salmon;
+    padding:20px;
+    border-radius:15px;
+    color:black; 
 }
 
-.logo {s
-    width: 80px;
-    height: 80px;
+.logo {
+    padding: 25px;
+}
+
+#hero-img {
+    padding:20px;
+}
+
+header nav #header-home{
+    color:black ;
+    font-size:20px;
+    text-align:center;
+    background-color:darksalmon;
+    padding:15px;
+    border-radius:5px; 
+}
+
+header nav #header-home:hover {
+    color:white;
+    background-color:black;
+}
+
+header nav #header-page2{
+    color:black ;
+    font-size:20px;
+    text-align:center;
+    background-color:darksalmon;
+    padding:15px;
+    border-radius:5px; 
+}
+
+header nav #header-page2:hover {
+    color:white;
+    background-color:black;
+}
+
+header nav #header-rafting{
+    color:black ;
+    font-size:20px;
+    text-align:center;
+    background-color:darksalmon;
+    padding:15px;
+    border-radius:5px; 
+}
+
+header nav #header-rafting:hover {
+    color:white;
+    background-color:black;
+}
+
+header nav #header-contactus{
+    color:black ;
+    font-size:20px;
+    text-align:center;
+    background-color:darksalmon;
+    padding:15px;
+    border-radius:5px; 
+}
+
+header nav #header-contactus:hover {
+    color:white;
+    background-color:black;
+}
+
+footer {
+    background-color:salmon;
+    padding:20px;
+    border-radius:15px;
+}
+
+body {
+    text-align: center;
+    background-color:peachpuff;
+}
+
+.home-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    text-align: center;
 }
 
 .msg h2 {
-    background-color: rgb(18, 145, 102);
+    text-align: center;
 }
 .msg p {
-    background-color: rgb(18, 145, 102);
+    text-align: center;
 }
 
-#footer {
-    background-color: rgb(18, 145, 102);
+.join {
+    font-size:25px;
+    text-align:center;
+    color: black;
+    background-color:darksalmon;
+
+    padding:15px;
+    border-radius: 15px;
+}
+
+.join:hover{
+    color:white;
+    background-color:black;
+}
+
+.book {
+   font-size:25px;
+   text-align:center;
+   color: black;
+   background-color:darksalmon;
+   padding:15px;
+   border-radius:15px;
+}
+
+.book:hover{
+    color:white;
+    background-color:black;
+}
+
+footer #footer-rafting {
+    color:black ;
+    font-size:20px;
+    text-align:center;
+    background-color:darksalmon;
+    padding:15px;
+    border-radius:5px; 
+}
+
+footer #footer-rafting:hover{
+    color:white;
+    background-color:black;
+}
+
+footer #footer-contactus {
+    color:black ;
+    font-size:20px;
+    text-align:center;
+    background-color:darksalmon;
+    padding:15px;
+    border-radius:5px; 
+}
+
+footer #footer-contactus:hover{
+    color:white;
+    background-color:black;
+}
+
+footer .section-space {
+    padding-top:30px;
+}
+
+footer h3 {
+    padding-bottom:20px;
 }

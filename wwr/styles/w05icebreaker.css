@@ -1,0 +1,33 @@
+footer{
+    background-color: grey;
+    max-width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.desk{
+    width: 200px;
+    border-width: 50px;
+    padding: 10px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 200px;
+    margin: 30px;
+}
+.logo{
+    width: 200px;
+    border-width: 50px;
+    padding: 10px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 200px;  
+    margin: 30px;
+}
+.person{
+    width: 200px;
+    border-width: 50px;
+    padding: 10px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 200px;
+    margin: 30px;
+}
+ 
+
