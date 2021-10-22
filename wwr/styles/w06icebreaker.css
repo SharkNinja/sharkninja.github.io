@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    display: grid;
+    grid-template-columns: 525px 1fr;
+}
+
+div {
+    grid-column: 2/3;
+    font-size:25px;
+    text-align:center;
+}
+
+button {
+    font-family: 'Oswald', sans-serif;
+    background-color:salmon;
+    padding:15px;
+    border-radius: 10px;
+    color:white;
+    font-size:12px;
+    text-align:center;
+    font-weight:bold;
+
+}
