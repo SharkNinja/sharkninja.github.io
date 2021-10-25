@@ -3,9 +3,8 @@
 body {
     font-family: 'Oswald', sans-serif;
     display: grid;
-    grid-template-columns: 525px 1fr;
+    grid-template-columns: 525px 800px;
     grid-template-rows: 200px 1fr 1fr;
-    max-width: 1920px;
 }
 
 div {
