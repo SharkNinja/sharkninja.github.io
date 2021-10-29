@@ -211,6 +211,9 @@ footer #footer-contactus:hover{
     #hero-msg h4 {
         display: none;
     }
+    #hero-img {
+        width:900px;
+    }
     .home-title {
         font-size: 25px;
         color: #6f7364;
