@@ -13,6 +13,7 @@ header {
     background-color:salmon;
     padding: 25px 50px;
     color:black; 
+    max-width: 100%;
 }
 
 nav {
@@ -189,11 +190,7 @@ footer #footer-contactus:hover{
     grid-row: 5/8;
 }
 
-
-
-
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 100%) {
     #hero, .home-grid {
         display: block;
         height: auto;
