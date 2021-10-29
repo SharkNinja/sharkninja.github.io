@@ -37,3 +37,7 @@ input[type="text"]{
     justify-self: end;
     font-size:25px;
 }
+
+.photo {
+    background:cover;
+}
