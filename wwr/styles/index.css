@@ -190,7 +190,7 @@ footer #footer-contactus:hover{
     grid-row: 5/8;
 }
 
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
