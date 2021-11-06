@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    background-color:peachpuff;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+}
+
+header {
+    display:grid;
+    grid-template-columns: 150px auto;
+    background-color:salmon;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+header nav #header-home{
+    color:white;
+    font-size:20px;
+    text-align:center;
+    background-color:salmon;
+    padding:15px;
+    border-radius:5px; 
+}
+
+header nav #header-home:hover {
+    color:white;
+    background-color:darksalmon;
+}
+
+header nav #header-page2{
+    color:white;
+    font-size:20px;
+    text-align:center;
+    background-color:salmon;
+    padding:15px;
+    border-radius:5px; 
+}
+
+header nav #header-page2:hover {
+    color:white;
+    background-color:darksalmon;
+}
+
+header nav #header-rafting{
+    color:white;
+    font-size:20px;
+    text-align:center;
+    background-color:salmon;
+    padding:15px;
+    border-radius:5px; 
+}
+
+header nav #header-rafting:hover {
+    color:white;
+    background-color:darksalmon;
+}
+
+header nav #header-contactus{
+    color:white;
+    font-size:20px;
+    text-align:center;
+    background-color:salmon;
+    padding:15px;
+    border-radius:5px; 
+}
+
+header nav #header-contactus:hover {
+    color:white;
+    background-color:darksalmon;
+}
+
+
+
+
+
+footer {
+    display:grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+}
+
+footer h3 {
+    grid-column: 1/2;
+}
+
+footer #footer-rafting {
+    color:white ;
+    font-size:20px;
+    text-align:center;
+    background-color:black;
+    padding:15px;
+    border-radius:5px; 
+    grid-column: 2/3;
+}
+
+footer #footer-rafting:hover{
+    color:white;
+    opacity: .6;
+}
+
+footer #footer-contactus {
+    color:white;
+    font-size:20px;
+    text-align:center;
+    background-color:black;
+    padding:15px;
+    border-radius:5px;
+    grid-column: 2/3;
+}
+
+footer #footer-contactus:hover{
+    color:white;
+    opacity: .6;
+}
+
+.social {
+    grid-column: 3/4;
+}
