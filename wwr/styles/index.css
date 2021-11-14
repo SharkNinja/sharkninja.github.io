@@ -4,6 +4,7 @@ body {
     background-color:peachpuff;
     font-family: 'Oswald', sans-serif;
     text-align:center;
+    margin:0;
 }
 
 header {
@@ -17,6 +18,8 @@ nav {
     justify-content: space-between;
     grid-column: 2/3;
     text-align: center;
+    text-decoration:none;
+    padding-top:8px;
 }
 
 #logo-link {
@@ -73,7 +76,7 @@ header nav #header-contactus{
     text-align:center;
     background-color:salmon;
     padding:15px;
-    border-radius:5px; 
+    border-radius:5px;  
 }
 
 header nav #header-contactus:hover {
@@ -116,7 +119,6 @@ header nav #header-contactus:hover {
 #hero-msg h4 {
     font-size:20px;
     text-shadow: 5px 5px 10px black;
-    margin-bottom: 75px;
 }
 
 .book {
@@ -130,7 +132,6 @@ header nav #header-contactus:hover {
 }
 
 .book:hover {
-    opacity: .6;
     transform: scale(1.1);
     background-color:darksalmon;
 }
@@ -145,6 +146,7 @@ header nav #header-contactus:hover {
     border: 10px solid salmon;
     transition: transform .5s;
     box-shadow: 5px 5px 10px darksalmon;
+    border-radius:15px;
 }
 
 .card-img:hover {
@@ -218,6 +220,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     padding:25px;
+    margin:0;
 }
 
 .join {
@@ -243,7 +246,7 @@ footer #footer-rafting {
 
 footer #footer-rafting:hover{
     color:white;
-    opacity: .6;
+    background-color:darksalmon;
 }
 
 footer #footer-contactus {
@@ -257,7 +260,7 @@ footer #footer-contactus {
 
 footer #footer-contactus:hover{
     color:white;
-    opacity: .6;
+    background-color:darksalmon;
 }
 
 /** PHONE OR MOBLE **/
