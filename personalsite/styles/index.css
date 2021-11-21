@@ -31,11 +31,15 @@ nav {
     text-align: center;
     text-decoration:none;
 }
-#roles-and-channel,#staff,#site-plan {
+#roles-and-channel,#staff,#site-plan,#home {
     color:white;
     text-decoration: none;
     padding:25px;
     
+}
+#home:hover {
+    background-color:#99A2EF;
+    color:white;
 }
 #roles-and-channel:hover {
     background-color:#99A2EF;
