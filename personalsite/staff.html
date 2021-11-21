@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/staff.css">
+    <title>Server Site | Staff</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="roles-and-channel" href="roles-and-channels.html">Roles & Channels</a>
+            <a id="staff" href="staff.html">Staff</a>
+            <a id="site-plan" href="site-plan.html">Site Plan</a>
+        </nav>
+    </header>
+    <main>
+        <img class="img" src="images/staff_info.png" alt="staff-info">
+        <h1>About Us</h1>
+        <p>We the server staff are here to help anyone, answer any questions, and deal with any situation swiftly. Below will be a list of our staff</p>
+        <p>members and the timezone they live in, which shoud make it easy for you to decide an appropriate time to contact someone.</p>
+        <div class="staff-divider">
+            <section class="staffmembers">
+                <h1>Admins</h1>
+                <ul>
+                    <p>UnamedAdmin#1</p>
+                    <p>UnamedAdmin#2</p>
+                    <p>UnamedAdmin#3</p>
+                    <p>UnamedAdmin#4</p>
+                <h1>Moderators</h1>
+                <p>UnamedAdmin#1</p>
+                    <p>UnamedMod#1</p>
+                    <p>UnamedMod#2</p>
+                    <p>UnamedMod#3</p>
+                    <p>UnamedMod#4</p>
+                    <p>UnamedMod#5</p>
+                    <p>UnamedMod#6</p>
+                    <p>UnamedMod#7</p>
+                <h1>Assisstants</h1>
+                <p>UnamedMod#1</p>
+                    <p>UnamedAssisstant#1</p>
+                    <p>UnamedAssisstant#2</p>
+                    <p>UnamedAssisstant#3</p>
+                    <p>UnamedAssisstant#4</p>
+                    <p>UnamedAssisstant#5</p>
+                    <p>UnamedAssisstant#6</p>
+                    <p>UnamedAssisstant#7</p>
+                    <p>UnamedAssisstant#8</p>
+                    <p>UnamedAssisstant#9</p>
+                    <p>UnamedAssisstant#10</p>
+            </section>
+            <section class="apply">
+                <h1>Apply!</h1>
+                <p>Do you want to volunteer for us? Then apply below!</p>
+                <ul>
+                    <li><label for="username-and-tag">Username + Tag</label><input type="text" id="username-and-tag" name="user_name"/></li>
+                    <li><label for="user-id">User ID:</label><input type="text" id="user-id" name="user-id" /></li>
+                    <li class="2fa-question"><label for="2fa-question">Do you have 2FA enabled? This is required in order to take certain moderation actions.</label>
+                    <select name="2fa-question" id="2fa-question">
+                        <option value="yes">Yes</option> 
+                        <option value="no-but-yes">No, but I can enable it.</option>
+                        <option value="no-cant">No, I do not have the needed necessities to enable it.</option>
+                    </select></li>
+                    <li class="developer-mode-question"><label for="developer-mode-question">Do you have developer mode enabled? This is required in order to make certain aspects of server management and moderation easier.</label>
+                    <select name="developer-mode-question"id="developer-mode-question">
+                        <option value="yes">Yes</option> 
+                        <option value="no-but-yes">No, but I can enable it.</option>
+                    </select></li>
+                <li><label for="question1">Do you have any type of moderation and/or leadership experience? Please be specific!</label><textarea id="question-response" name="user-question-response"></textarea></li>
+                <li><label for="question1">Have you had staffing experience in other server(s) before? How would you exactly use your experience and apply it here? If you are still currently staffing for another server or more, how would you exactly go about staffing more than one server at once, would it effect how you contribute here?</label><textarea id="question-response" name="user-question-response"></textarea></li>
+                <li><label for="question1">What are some other types of skills that you have that you can provide to the staff team?</label><textarea id="question-response" name="user-question-response"></textarea></li>
+                <li><label for="question1">Do you have a good understanding of how discord works? This includes things like roles/channel permissions. Furthermore, how knowledgeable are you on bots? This can include bots that are in and out of the server.</label><textarea id="question-response" name="user-question-response"></textarea></li>
+                <li><label for="question1">What are some ideas that you have that can improve the overall enjoyment/experience of the server? </label><textarea id="question-response" name="user-question-response"></textarea></li>
+                <li><label for="question1">What is your reason and/or motivation for wanting to become a staff member?</label><textarea id="question-response" name="user-question-response"></textarea></li>
+                <li><label for="question1">How active are you on the server? Should you be accepted as a staff member, how would your activity change? What are some factors that can affect your activity or contribution to the staff team?</label><textarea id="question-response" name="user-question-response"></textarea></li>
+                <li><label for="question1">Do you have a good understanding of the server roles, channels, and rules?</label><textarea id="question-response" name="user-question-response"></textarea></li>
+                <li><label for="question1">Staffing on any large server can be stressful, are you prepared for that? How would you handle stress?</label><textarea id="question-response" name="user-question-response"></textarea></li>
+                <li><label for="question1">DWhy do you believe you should be a staff member?</label><textarea id="question-response" name="user-question-response"></textarea></li>
+                <li class="applicationbutton"><button type="submit">Submit Application</button></li>
+            </section>
+        </div>
+        <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback');
+            // get the form so we can read what was entered in it.
+            const formElement = document.forms[0];
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function(e) {
+                // stop the form from doing the default action.
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for submitting your application. You will most likely be interviewed and asked more questions, then we will decide if you are on team or not!'
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+                // add a class to move everything down so our message doesn't cover it.
+                document.body.classList.toggle('moveDown');
+            });
+        </script> 
+        </div>
+    </main>
+    <footer>
+        <h1>Discord Server Website &copy; 2021 - Jeriko Marcyn Lagazo</h1>
+        <div class="social">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="fb icon" height="50" width="50"></a>
+            <a href="https://twitter.com"><img src="images/twittter.png" alt="twitter icon" height="50" width="50"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram icon" height="50" width="50"></a>
+        </div> 
+    </footer>
+</body>
+</html>

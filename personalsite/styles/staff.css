@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+  font-family:'PT Sans', sans-serif;
+  max-width:1920px;
+  background-color:#99aab5;
+  margin:0;
+  text-align:center;
+  list-style-type: none;
+}
+header {
+    background-color:#5865F2;
+    text-decoration: none;
+    margin-bottom:25px;
+}
+footer {
+    background-color:#5865F2;
+    padding:50px;
+    display:flex;
+    padding:50px;
+    justify-content: space-between;
+    color:white;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    font-size:25px;
+    text-align: center;
+    text-decoration:none;
+}
+#roles-and-channel,#staff,#site-plan {
+    color:white;
+    text-decoration: none;
+    padding:25px;
+    
+}
+#roles-and-channel:hover {
+    background-color:#99A2EF;
+    color:white;
+}
+#staff:hover {
+    background-color:#99A2EF;
+    color:white;
+}
+#site-plan:hover {
+    background-color:#99A2EF;
+    color:white;
+}
+
+.img {
+    width:960px; 
+    height:248x;
+    border-radius:25px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black
+}
+.img:hover {
+    opacity: .6;
+    transform: scale(1.12);
+}
+
+h1 {
+    font-size:25px;
+    font-style: bold;   
+}
+
+.staff-divider {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.staffmembers {
+    grid-template-rows: 5/6;
+    list-style: none;
+}
+
+.apply {
+    text-align:left;
+    list-style-type: none;
+}
