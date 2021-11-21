@@ -34,8 +34,7 @@ nav {
 #roles-and-channel,#staff,#site-plan,#home {
     color:white;
     text-decoration: none;
-    padding:25px;
-    
+    padding:25px; 
 }
 #home:hover {
     background-color:#99A2EF;

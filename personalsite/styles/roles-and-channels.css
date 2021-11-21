@@ -50,3 +50,15 @@ nav {
     background-color:#99A2EF;
     color:white;
 }
+
+.img {
+    width:960px; 
+    height:248x;
+    border-radius:25px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black
+}
+.img:hover {
+    opacity: .6;
+    transform: scale(1.12);
+}
