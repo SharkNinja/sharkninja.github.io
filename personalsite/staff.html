@@ -23,14 +23,15 @@
         <p>members and the timezone they live in, which shoud make it easy for you to decide an appropriate time to contact someone.</p>
         <div class="staff-divider">
             <section class="staffmembers">
-                <h1>Admins</h1>
-                <ul>
+                <button class="accordion"><h1>Admins</h1></button>
+                <div class="panel">
                     <p>UnamedAdmin#1</p>
                     <p>UnamedAdmin#2</p>
                     <p>UnamedAdmin#3</p>
                     <p>UnamedAdmin#4</p>
-                <h1>Moderators</h1>
-                <p>UnamedAdmin#1</p>
+                </div>
+                <button class="accordion"><h1>Moderators</h1></button>
+                <div class="panel">
                     <p>UnamedMod#1</p>
                     <p>UnamedMod#2</p>
                     <p>UnamedMod#3</p>
@@ -38,8 +39,9 @@
                     <p>UnamedMod#5</p>
                     <p>UnamedMod#6</p>
                     <p>UnamedMod#7</p>
-                <h1>Assisstants</h1>
-                <p>UnamedMod#1</p>
+                </div>
+                <button class="accordion"><h1>Assisstants</h1></button>
+                <div class="panel">
                     <p>UnamedAssisstant#1</p>
                     <p>UnamedAssisstant#2</p>
                     <p>UnamedAssisstant#3</p>
@@ -50,6 +52,7 @@
                     <p>UnamedAssisstant#8</p>
                     <p>UnamedAssisstant#9</p>
                     <p>UnamedAssisstant#10</p>
+                </div>        
             </section>
             <section class="apply">
                 <h1>Apply!</h1>
@@ -98,6 +101,26 @@
                 document.body.classList.toggle('moveDown');
             });
         </script> 
+        <script>
+                var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+        
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
         </div>
     </main>
     <footer>
