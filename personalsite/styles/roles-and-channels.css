@@ -53,7 +53,7 @@ nav {
 
 .img {
     width:960px; 
-    height:248x;
+    height:248px;
     border-radius:25px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px black
@@ -77,6 +77,8 @@ nav {
     width:100%;
     text-align:center;
     margin:0 auto;
+    font-size:25px;
+    font-weight: bold;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -86,10 +88,12 @@ nav {
     text-align:center;
     text-align:center;
     margin:0 auto;
+    font-weight: bold;
   }
 
   .accordion:hover {
     color:white;
+    font-weight: bold;
 }
   
   /* Style the accordion panel. Note: hidden by default */
@@ -102,4 +106,5 @@ nav {
     text-align:center;
     text-align:center;
     margin:0 auto;
+    font-weight: bold;
   }
