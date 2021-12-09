@@ -123,3 +123,28 @@ h1 {
     text-align:center;
     margin:0 auto;
   }
+
+  .question {
+    width:75%;
+    height:45px;
+    margin:5px 0;
+    padding:10px 12px;
+    box-sizing:border-box;
+    border:2px solid lightgray;
+    border-radius:15px;
+    font-family:'PT Sans', sans-serif;
+  }
+
+  .button {
+    padding:15px;
+    background-color:#5865F2;
+    border-radius:15px;
+    color:white;
+    text-decoration: none;
+    font-family:'PT Sans', sans-serif;
+}
+.button:hover{
+    background-color:#99A2EF;
+    color:white;
+    font-family:'PT Sans', sans-serif;
+}
