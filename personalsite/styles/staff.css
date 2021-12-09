@@ -65,7 +65,7 @@ nav {
 
 h1 {
     font-size:25px;
-    font-style: bold;   
+    font-style: bold; 
 }
 
 .staff-divider {
@@ -75,6 +75,7 @@ h1 {
 .staffmembers {
     grid-template-rows: 5/6;
     list-style: none;
+    text-align:center;
 }
 
 .apply {
@@ -137,6 +138,7 @@ h1 {
 
 .button {
     padding:15px;
+    width:75%;
     background-color:#5865F2;
     border-radius:15px;
     color:white;
