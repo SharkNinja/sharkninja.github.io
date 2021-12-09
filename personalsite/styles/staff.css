@@ -124,7 +124,7 @@ h1 {
     margin:0 auto;
   }
 
-  .question {
+.question {
     width:75%;
     height:45px;
     margin:5px 0;
@@ -135,7 +135,7 @@ h1 {
     font-family:'PT Sans', sans-serif;
   }
 
-  .button {
+.button {
     padding:15px;
     background-color:#5865F2;
     border-radius:15px;
