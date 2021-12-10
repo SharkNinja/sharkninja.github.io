@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans&display=swap');
 
 body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 35px 1fr 1fr 1fr;
+}
+
 .signup {
-    grid-column: 1/2;
+    grid-column: 2/3;
 }
 
 .signup h1 {
@@ -48,7 +51,7 @@ body {
 
 #image {
     display: block;
-    grid-column:2/3;
+    grid-column:3/5;
     background-size: cover;
     overflow:hidden;
     height:fit-content;
