@@ -108,3 +108,42 @@ nav {
     margin:0 auto;
     font-weight: bold;
   }
+
+.blurple {
+    color:#5865F2;
+    font-weight:bold
+}
+.booster {
+    color:#FF00DC;
+}
+.members {
+    color:#20C991;
+}
+.locals {
+    color:#1AA375;
+}
+.regulars {
+    color:#127552;
+}
+.veterans {
+    color:#083525;
+}
+
+.red {
+    color:red;
+}
+.orange {
+    color:orange;
+}
+.yellow {
+    color:yellow;
+}
+.green {
+    color:green;
+}
+.blue {
+    color:blue;
+}
+.purple {
+    color:purple;
+}

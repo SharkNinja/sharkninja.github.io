@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+  font-family:'PT Sans', sans-serif;
+  max-width:1920px;
+  background-color:#99aab5;
+  margin:0;
+  text-align:center;
+  list-style-type: none;
+}
+header {
+    background-color:#5865F2;
+    text-decoration: none;
+    margin-bottom:25px;
+}
+footer {
+    background-color:#5865F2;
+    padding:50px;
+    display:flex;
+    padding:50px;
+    justify-content: space-between;
+    color:white;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    font-size:25px;
+    text-align: center;
+    text-decoration:none;
+}
+#roles-and-channel,#staff,#site-plan,#home {
+    color:white;
+    text-decoration: none;
+    padding:25px;
+}
+#home:hover {
+    background-color:#99A2EF;
+    color:white;
+}
+#roles-and-channel:hover {
+    background-color:#99A2EF;
+    color:white;
+}
+#staff:hover {
+    background-color:#99A2EF;
+    color:white;
+}
+#site-plan:hover {
+    background-color:#99A2EF;
+    color:white;
+}
+
+
+.apply {
+    text-align:center;
+}
+
+.question,.bigquestion {
+    width:75%;
+    height:45px;
+    margin:5px 0;
+    padding:10px 12px;
+    box-sizing:border-box;
+    border:2px solid lightgray;
+    border-radius:15px;
+    font-family:'PT Sans', sans-serif;
+}
+
+.bigquestion {
+    height:125px;
+}
+
+.button {
+    padding:15px;
+    width:75%;
+    background-color:#5865F2;
+    border-radius:15px;
+    color:white;
+    text-decoration: none;
+    font-family:'PT Sans', sans-serif;
+    font-weight: bold;
+}
+.button:hover{
+    background-color:#99A2EF;
+    color:white;
+    font-family:'PT Sans', sans-serif;
+}
